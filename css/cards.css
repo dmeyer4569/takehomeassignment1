@@ -1,0 +1,64 @@
+.car-card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1.5rem;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s ease;
+}
+
+/* Ensure images don't break the layout */
+.car-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.car-header h2 {
+  margin: 0 0 10px 0; /* Added bottom margin for spacing */
+  font-size: 1.2rem;
+  color: #222;
+}
+
+.card-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Aligns the tops of both columns */
+  width: 100%;
+  margin-top: 10px;
+}
+
+
+.card-body p {
+  margin: 0; 
+  line-height: 1.5;
+}
+
+.left-body {
+  text-align: left;
+  flex: 1;
+}
+
+.right-body {
+  text-align: right;
+  flex: 1;
+  font-size: 0.85rem;
+  color: #444;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #2c3e50;
+  display: block; /* Ensures it stays on its own line */
+}
+
+.color { 
+  color: #666;
+  font-size: 0.9rem;
+  display: block;
+}

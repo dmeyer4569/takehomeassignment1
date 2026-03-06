@@ -1,0 +1,24 @@
+.inputs {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.inputs input {
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.checkboxes input {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.checkboxes label {
+  font-size: 0.9rem;
+  cursor: pointer;
+}
