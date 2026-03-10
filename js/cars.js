@@ -24,7 +24,7 @@ export function renderCars(data) {
 
         <div class="card-body">
           <div class="left-body">
-            <p class="price">${car.price.toLocaleString()}</p>
+            <p class="price">$${car.price.toLocaleString()}</p>
             <p class="color">${car.color}</p>
           </div>
         
