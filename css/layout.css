@@ -6,10 +6,9 @@ body {
 }
 
 .container {
-  display: grid;
-  grid-template-columns: 250px 1fr;
-  gap: 20px;
-  min-height: 100vh;
+  display: flex;
+  column-gap: 20px;
+  align-items: flex-start; /* sidebar and car container height independent */
 }
 
 .sidebar {
@@ -24,6 +23,10 @@ body {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
   padding: 20px;
+}
+
+main#car-container {
+  flex: 1;
 }
 
 
